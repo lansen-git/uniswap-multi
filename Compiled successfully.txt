@@ -1,0 +1,9 @@
+Compiled successfully!
+
+You can now view @uniswap/interface in the browser.
+
+  Local:            http://localhost:3000/uniswap-front-interface
+  On Your Network:  http://10.196.111.166:3000/uniswap-front-interface
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
