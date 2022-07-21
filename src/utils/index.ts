@@ -22,8 +22,8 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   3: 'https://ropsten.etherscan.io',
   4: 'https://rinkeby.etherscan.io',
   5: 'https://goerli.etherscan.io',
-  42: 'https://kovan.etherscan.io'
-  
+  42: 'https://kovan.etherscan.io',
+  128: 'https://hecoinfo.com'
 }
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
